@@ -3,7 +3,7 @@ function calculateTotalCost(price, taxRate, shippingCost) {
     return totalCost;
 }
 function calculateComplexFunction(price, taxRate, shippingCost = 0, message = 'Default message') {
-    let discount = price * (5 / 100);
+                let discount = price * (5 / 100);
     let totalBeforeShipping = price + (price * taxRate) / 100;
     let discountedPrice = totalBeforeShipping - discount;
 
