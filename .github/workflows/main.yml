@@ -21,6 +21,8 @@ jobs:
 
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
+        env:
+           GITHUB_TOKEN: "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"
         with:
           # This part is also where you can pass other options, for example:
           prettier_options: --write **/*.{js,md}
