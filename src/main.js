@@ -25,20 +25,19 @@ function calculateComplexFunction(
   };
 
   // Set various properties based on different accessors
-  eventHolder.price = function (target) {
-    console.log("Price:", target.price);
-  };
-  eventHolder.websiteUrl = function (target) {
-    console.log("Website URL:", target.websiteUrl);
-  };
-  eventHolder.Email = function (target) {
-    console.log("Email:", target.email);
-  };
+eventHolder.price = function (target) {
+console.log("Price:", target.price);
+};
+            eventHolder.websiteUrl = function (target) {
+                console.log("Website URL:", target.websiteUrl);
+            };
+    eventHolder.Email = function (target) {
+        console.log("Email:", target.email);
+    };
   eventHolder.ProductName = function (target) {
     console.log("Product Name:", target.productName);
   };
-  eventHolder.timestamp = function (target) {
-    let timestampStr = new Date().toISOString();
+  eventHolder.timestamp = function (target) {let timestampStr = new Date().toISOString();
     console.log("Timestamp:", timestampStr);
   };
 
