@@ -5,7 +5,7 @@
  * @returns {number} - La somme des deux nombres
  */
 function additionner(a, b) {
-    return a + b;
+  return a + b;
 }
 
 // Exemple d'utilisation
